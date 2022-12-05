@@ -1,0 +1,10 @@
+export { AlumnoControllerService } from './services/alumno-controller.service';
+export { AsistenciaControllerService } from './services/asistencia-controller.service';
+export { DetalleAsistenciaControllerService } from './services/detalle-asistencia-controller.service';
+export { DetalleMatriculaControllerService } from './services/detalle-matricula-controller.service';
+export { DocenteControllerService } from './services/docente-controller.service';
+export { HorarioControllerService } from './services/horario-controller.service';
+export { MateriaControllerService } from './services/materia-controller.service';
+export { MatriculaControllerService } from './services/matricula-controller.service';
+export { PingControllerService } from './services/ping-controller.service';
+export { SeccionControllerService } from './services/seccion-controller.service';
