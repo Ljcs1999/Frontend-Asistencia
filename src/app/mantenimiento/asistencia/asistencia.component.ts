@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Asistencia } from 'src/app/api/models';
 
 @Component({
   selector: 'app-asistencia',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AsistenciaComponent {
 
+  asistencia:Asistencia[]=[];
+
+  constructor(){}
+
+  ngOnInit(): void {
+
+  }
 }
